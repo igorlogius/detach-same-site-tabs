@@ -1,0 +1,21 @@
+{
+  "author": "igorlogius",
+  "homagepage_url": "https://github.com/igorlogius",
+  "browser_action": {
+    "default_area": "navbar"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "_execute_browser_action": {}
+  },
+  "icons": {
+    "256": "icon.png"
+  },
+  "description": "Shows the amount of tabs with the same origin as the active one and allows to move them into a seperate window for inspection",
+  "manifest_version": 2,
+  "name": "Detach Same Origin Tabs",
+  "permissions": ["tabs", "menus"],
+  "version": "1.0.0"
+}
