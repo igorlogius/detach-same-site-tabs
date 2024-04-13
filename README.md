@@ -1,4 +1,4 @@
-
+Shows the amount of tabs with the same origin as the active one and allows to move them into a seperate window for inspection
 
 <b>Short Demo Video</b>
 
