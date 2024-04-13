@@ -2,6 +2,7 @@
 
 <b>Short Demo Video</b>
 
+https://github.com/igorlogius/detach-same-origin-tabs/assets/67047467/f3ec67fc-ee7c-4890-aa0e-e63f5b26fb6f
 
 <b>Features/Usage</b>
 
