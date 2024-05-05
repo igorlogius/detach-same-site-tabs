@@ -1,5 +1,7 @@
 Shows the amount of tabs with the same origin as the active one and allows to move them into a seperate window for inspection
 
+### [Click here to report a bug, make a suggestion or ask a question](https://github.com/igorlogius/igorlogius/issues/new/choose)
+
 <b>Short Demo Video</b>
 
 https://github.com/igorlogius/detach-same-origin-tabs/assets/67047467/f3ec67fc-ee7c-4890-aa0e-e63f5b26fb6f
