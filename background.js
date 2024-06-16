@@ -30,7 +30,7 @@ function updateDupData() {
           k !== tabId &&
           new URL(t0.url).origin === new URL(v.url).origin &&
           //t0.cookieStoreId === v.cookieStoreId &&
-          v.status !== "loading"
+          v.status !== "loading",
       )
       .map(([k]) => k);
 
@@ -66,7 +66,7 @@ function updateBA() {
       browser.browserAction.setBadgeText({ tabId: k, text: "" + v.length });
       browser.browserAction.setTitle({
         tabId: k,
-        title: "Show " + v.length + " Tabs",
+        title: "Detach Same Origin Tabs",
       });
     } else {
       browser.browserAction.disable(k);
@@ -115,7 +115,7 @@ browser.tabs.onUpdated.addListener(
       delayed_updateBA();
     }
   },
-  { properties: ["url", "status"] }
+  { properties: ["url", "status"] },
 );
 
 // update cache

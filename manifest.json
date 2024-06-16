@@ -13,9 +13,9 @@
   "icons": {
     "256": "icon.png"
   },
-  "description": "Shows the amount of tabs with the same origin as the active one and allows to move them into a seperate window for inspection",
+  "description": "See #tabs with same origin as current one and detach them into a window",
   "manifest_version": 2,
   "name": "Detach Same Origin Tabs",
   "permissions": ["tabs", "menus"],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
