@@ -1,6 +1,6 @@
 {
   "author": "igorlogius",
-  "homagepage_url": "https://github.com/igorlogius",
+  "homepage_url": "https://github.com/igorlogius",
   "browser_action": {
     "default_area": "navbar"
   },
@@ -17,5 +17,5 @@
   "manifest_version": 2,
   "name": "Detach Same Origin Tabs",
   "permissions": ["tabs", "menus"],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
