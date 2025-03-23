@@ -6,7 +6,7 @@ Shows the amount of tabs with the same origin as the active one and allows to mo
 
 <b>Short Demo Video</b>
 
-https://github.com/igorlogius/detach-same-origin-tabs/assets/67047467/f3ec67fc-ee7c-4890-aa0e-e63f5b26fb6f
+https://github.com/user-attachments/assets/6bf110b2-f589-432b-a698-f4ea453c1b16
 
 <b>Features/Usage</b>
 
