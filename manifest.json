@@ -1,6 +1,6 @@
 {
   "author": "igorlogius",
-  "homepage_url": "https://github.com/igorlogius",
+  "homepage_url": "https://github.com/igorlogius/detach-same-site-tabs",
   "browser_action": {
     "default_area": "navbar"
   },
@@ -13,9 +13,9 @@
   "icons": {
     "256": "icon.png"
   },
-  "description": "See #tabs with same origin as current one and detach them into a window",
+  "description": "See #tabs with same origin as current one and detach them into a new window",
   "manifest_version": 2,
-  "name": "Detach Same Origin Tabs",
+  "name": "Detach Same Site Tabs",
   "permissions": ["tabs", "menus"],
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

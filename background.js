@@ -66,7 +66,7 @@ function updateBA() {
       browser.browserAction.setBadgeText({ tabId: k, text: "" + v.length });
       browser.browserAction.setTitle({
         tabId: k,
-        title: "Detach Same Origin Tabs",
+        title: "Detach Same Site Tabs",
       });
     } else {
       browser.browserAction.disable(k);
@@ -145,7 +145,7 @@ browser.browserAction.onClicked.addListener((tab) => {
 });
 
 browser.menus.create({
-  title: "Detach Same Origin Tabs",
+  title: "Detach Same Site Tabs",
   contexts: ["tab"],
   onclick: async (clickdata, tab) => {
     seperateDups(tab.id);
